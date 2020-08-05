@@ -5,13 +5,13 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 // images
-import logoImg from "../../assets/logo.svg";
-import landingImg from "../../assets/landing.svg";
+import logoImg from "../../assets/images/logo.svg";
+import landingImg from "../../assets/images/landing.svg";
 
 // icons
-import studyIcon from "../../assets/icons/study.svg";
-import giveClassesIcon from "../../assets/icons/give-classes.svg";
-import purpleHeartIcon from "../../assets/icons/purple-heart.svg";
+import studyIcon from "../../assets/images/icons/study.svg";
+import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
+import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
 function Landing() {
   return (
