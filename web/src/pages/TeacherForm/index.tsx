@@ -13,7 +13,7 @@ import warningIcon from "../../assets/images/icons/warning.svg";
 function TeacherForm() {
   const [scheduleItems, setScheduleItems] = useState([
     {
-      week_day: 0,
+      week_day: "",
       from: "",
       to: "",
     },
@@ -45,7 +45,7 @@ function TeacherForm() {
     setScheduleItems([
       ...scheduleItems,
       {
-        week_day: 0,
+        week_day: "",
         from: "",
         to: "",
       },
