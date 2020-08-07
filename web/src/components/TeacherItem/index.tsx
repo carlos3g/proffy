@@ -3,39 +3,54 @@ import "./styles.css";
 
 // icons
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
+import api from "../../services/api";
 
-interface IProps {}
+export interface IProffy {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
 
-const TeacherItem: React.FC<IProps> = (props) => {
+interface IProps {
+  proffy: IProffy;
+}
+
+const TeacherItem: React.FC<IProps> = ({ proffy }) => {
+  function createNewConnection() {
+    api.post("connections", {
+      user_id: proffy.id,
+    });
+  }
+
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://avatars2.githubusercontent.com/u/52337966?s=460&u=17eccc5cafaa84bdecf8d46d0acbc42c6d10d381&v=4"
-          alt="avatar"
-        />
+        <img src={proffy.avatar} alt={proffy.name} />
 
         <div>
-          <strong>Carlos Emanuel</strong>
-          <span>Astronômo</span>
+          <strong>{proffy.name}</strong>
+          <span>{proffy.subject}</span>
         </div>
       </header>
 
-      <p>
-        aaaaaaaa
-        <br /> <br />
-        aaaaaaaaaa
-      </p>
+      <p>{proffy.bio}</p>
 
       <footer>
         <p>
           Preço/Hora
-          <strong>R$ 20,00</strong>
+          <strong>R$ {proffy.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          onClick={createNewConnection}
+          href={`https://wa.me/${proffy.whatsapp}`}
+        >
           <img src={whatsappIcon} alt="whatsapp" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
