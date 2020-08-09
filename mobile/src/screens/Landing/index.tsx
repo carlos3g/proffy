@@ -32,6 +32,10 @@ function Landing() {
     navigate("GiveClasses");
   }
 
+  function handleNavigateToStudy() {
+    navigate("Study");
+  }
+
   return (
     <Container>
       <Banner source={LandingImg} />
@@ -41,7 +45,7 @@ function Landing() {
       </Title>
 
       <ButtonsContainer>
-        <Button primary>
+        <Button primary onPress={handleNavigateToStudy}>
           <ButtonImg source={StudyIcon} />
           <ButtonText>Estudar</ButtonText>
         </Button>

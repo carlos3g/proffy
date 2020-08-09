@@ -1,7 +1,8 @@
 import React from "react";
 
-// packages
+// navigation
 import { createStackNavigator } from "@react-navigation/stack";
+import TabsNavigator from "../TabsNavigator";
 
 // screens
 import LandingScreen from "../../screens/Landing";
@@ -18,6 +19,7 @@ function StackNavigator() {
     >
       <Screen name="Landing" component={LandingScreen} />
       <Screen name="GiveClasses" component={GiveClassesScreen} />
+      <Screen name="Study" component={TabsNavigator} />
     </Navigator>
   );
 }
