@@ -32,7 +32,7 @@ export default function App() {
     return (
       <>
         <Main />
-        <StatusBar style="auto" />
+        <StatusBar style="light" />
       </>
     );
   }
