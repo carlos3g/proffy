@@ -56,7 +56,7 @@ function TabsNavigator() {
         name="Favorites"
         component={FavoritesScreen}
         options={{
-          tabBarLabel: "Proffys",
+          tabBarLabel: "Favoritos",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="ios-heart" size={size} color={color} />
           ),
