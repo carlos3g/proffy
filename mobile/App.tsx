@@ -1,8 +1,10 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 
 // packages
 import { AppLoading } from "expo";
+
+// screens
+import Main from "./src";
 
 // fonts
 import {
@@ -15,9 +17,6 @@ import {
   Poppins_600SemiBold,
 } from "@expo-google-fonts/poppins";
 
-// screens
-import Main from "./src";
-
 export default function App() {
   let [fontsLoaded] = useFonts({
     Archivo_400Regular,
@@ -29,11 +28,6 @@ export default function App() {
   if (!fontsLoaded) {
     return <AppLoading />;
   } else {
-    return (
-      <>
-        <Main />
-        <StatusBar style="light" />
-      </>
-    );
+    return <Main />;
   }
 }
