@@ -5,6 +5,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 // screens
 import LandingScreen from "../../screens/Landing";
+import GiveClassesScreen from "../../screens/GiveClasses";
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -16,6 +17,7 @@ function StackNavigator() {
       }}
     >
       <Screen name="Landing" component={LandingScreen} />
+      <Screen name="GiveClasses" component={GiveClassesScreen} />
     </Navigator>
   );
 }
