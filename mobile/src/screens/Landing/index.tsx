@@ -1,5 +1,8 @@
 import React from "react";
 
+// navigation
+import { useNavigation } from "@react-navigation/native";
+
 // styled
 import {
   Container,
@@ -23,6 +26,12 @@ import GiveClassesIcon from "../../assets/images/icons/give-classes.png";
 import HeartIcon from "../../assets/images/icons/heart.png";
 
 function Landing() {
+  const { navigate } = useNavigation();
+
+  function handleNavigateToGiveClasses() {
+    navigate("GiveClasses");
+  }
+
   return (
     <Container>
       <Banner source={LandingImg} />
@@ -37,7 +46,7 @@ function Landing() {
           <ButtonText>Estudar</ButtonText>
         </Button>
 
-        <Button>
+        <Button onPress={handleNavigateToGiveClasses}>
           <ButtonImg source={GiveClassesIcon} />
           <ButtonText>Dar aulas</ButtonText>
         </Button>
