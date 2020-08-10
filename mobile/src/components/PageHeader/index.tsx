@@ -7,9 +7,21 @@ import { IPageHeaderProps } from "../../@types/types";
 import { useNavigation } from "@react-navigation/native";
 
 // styles
-import { Container, TopBar, BackButton, BackIcon, Logo, Title } from "./styles";
+import {
+  Container,
+  TopBar,
+  BackButton,
+  BackIcon,
+  Logo,
+  Title,
+  Header,
+} from "./styles";
 
-const PageHeader: React.FC<IPageHeaderProps> = ({ title }) => {
+const PageHeader: React.FC<IPageHeaderProps> = ({
+  title,
+  children,
+  headerRight,
+}) => {
   const { navigate } = useNavigation();
 
   function handleGoBack() {
@@ -26,7 +38,12 @@ const PageHeader: React.FC<IPageHeaderProps> = ({ title }) => {
         <Logo />
       </TopBar>
 
-      <Title>{title}</Title>
+      <Header>
+        <Title>{title}</Title>
+        {headerRight}
+      </Header>
+
+      {children}
     </Container>
   );
 };
