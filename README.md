@@ -17,7 +17,6 @@
 
 - [About the project](#-about-the-projects)
 - [Screenshots](#-screenshots)
-- [How to run the project](#-how-to-run-the-project)
 - [Technologies used](#-technologies-used)
 - [How to contribute with](#-how-to-contribute-with)
 - [License](#-license)
@@ -29,27 +28,6 @@ Proffy is a study platform developed during the NLW#4 event
 ## 📷 Screenshots
 
 <img src=".github/images/mockup.png" alt="Screenshot" width="700"/>
-
-## 🚀 How to run the project
-
-#### Clone the repository
-
-```bash
-git clone https://github.com/carlos3g/proffy.git
-```
-
-#### Install dependencies
-
-```bash
-cd proffy
-yarn install
-```
-
-#### Run the application
-
-```bash
-yarn start
-```
 
 ## 🛠 Technologies used
 
