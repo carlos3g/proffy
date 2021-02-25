@@ -15,8 +15,8 @@
 ## Table of contents
 
 - [About the project](#-about-the-projects)
-- [How to run the project](#-how-to-run-the-project)
 - [Screenshots](#-screenshots)
+- [How to run the project](#-how-to-run-the-project)
 - [Technologies used](#-technologies-used)
 - [How to contribute with](#-how-to-contribute-with)
 - [License](#-license)
@@ -24,6 +24,12 @@
 ## 💻 About the project
 
 Proffy is a study platform developed during the NLW#4 event
+
+## 📷 Screenshots
+
+<!--
+<img src=".github/images/mockup.png" alt="Screenshot" width="300"/>
+-->
 
 ## 🚀 How to run the project
 
@@ -45,12 +51,6 @@ yarn install
 ```bash
 yarn start
 ```
-
-## 📷 Screenshots
-
-<!--
-<img src=".github/images/mockup.png" alt="Screenshot" width="300"/>
--->
 
 ## 🛠 Technologies used
 
