@@ -4,7 +4,7 @@
     proffy
   </h1>
   <blockquote>
-    Study platform developed during NLW#2 | @Rocketseat
+    Class marketplace developed during NLW#2 | @Rocketseat
   </blockquote>
   <div id="badges">
     <img src="https://img.shields.io/github/repo-size/carlos3g/proffy?color=4000FF" alt="repo-size" />
@@ -23,7 +23,7 @@
 
 ## 💻 About the project
 
-Proffy is a study platform developed during the NLW#4 event
+Proffy is a class marketplace developed during the NLW#4 event
 
 ## 📷 Screenshots
 
