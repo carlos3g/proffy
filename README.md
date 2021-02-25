@@ -1,4 +1,5 @@
 <div align="center">
+  <img src=".github/images/banner.png" alt="proffy" />
   <h1>
     proffy
   </h1>
@@ -27,9 +28,7 @@ Proffy is a study platform developed during the NLW#4 event
 
 ## 📷 Screenshots
 
-<!--
-<img src=".github/images/mockup.png" alt="Screenshot" width="300"/>
--->
+<img src=".github/images/mockup.png" alt="Screenshot" width="700"/>
 
 ## 🚀 How to run the project
 
