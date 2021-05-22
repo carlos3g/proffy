@@ -4,7 +4,7 @@
     proffy
   </h1>
   <blockquote>
-    Class marketplace developed during NLW#2 | @Rocketseat
+    Class marketplace system developed during NLW#2 | @Rocketseat
   </blockquote>
   <div id="badges">
     <img src="https://img.shields.io/github/repo-size/carlos3g/proffy?color=4000FF" alt="repo-size" />
@@ -12,35 +12,37 @@
     <img src="https://img.shields.io/badge/license-MIT-4000FF" alt="license" />
   </div>
 </div>
-    
+
 ## Table of contents
 
-- [About the project](#-about-the-projects)
-- [Screenshots](#-screenshots)
-- [Technologies used](#-technologies-used)
-- [How to contribute with](#-how-to-contribute-with)
+- [About the project](#-about-the-project)
+  - [Screenshots](#-screenshots)
+  - [Technologies](#-technologies)
+- [How to contribute](#-how-to-contribute)
 - [License](#-license)
 
 ## 💻 About the project
 
-Proffy is a class marketplace developed during the NLW#4 event
+Proffy is a class marketplace system developed during the NLW#4 event
 
-## 📷 Screenshots
+### 📷 Screenshots
 
-<img src=".github/images/mockup.png" alt="Screenshot" width="700"/>
+<div align="center">
+  <img src=".github/images/mockup.png" alt="Screenshot" width="90%"/>
+</div>
 
-## 🛠 Technologies used
+### 🛠 Technologies
 
-The following tools were used in the construction of the project:
+The following technologies were used in the construction of the project:
 
--  [Typescript](https://www.typescriptlang.org/)
--  [Express](https://expressjs.com/)
--  [Node.js](https://nodejs.org/en/)
--  [ReactJS](https://reactjs.org/)
--  [Axios](https://github.com/axios/axios)
--  [Expo](https://expo.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [Axios](https://github.com/axios/axios)
+- [Expo](https://expo.io/)
 
-## 🤝 How to contribute with
+## 🤝 How to contribute
 
 Every kind of contribution is welcome, we admire it!
 
@@ -56,4 +58,8 @@ This project is under the MIT license. See the file [LICENSE](LICENSE) for more 
 
 ---
 
+<div align="center">
+
 Created by [Carlos Mesquita](https://github.com/carlos3g) 💜
+
+</div>
