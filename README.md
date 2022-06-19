@@ -42,16 +42,6 @@ The following technologies were used in the construction of the project:
 - [Axios](https://github.com/axios/axios)
 - [Expo](https://expo.io/)
 
-## 🤝 How to contribute
-
-Every kind of contribution is welcome, we admire it!
-
-Is there any problem? Found a bug? Do you have any tips? Open an [issue](https://github.com/carlos3g/proffy/issues) describing it.
-
-Want to contribute code? We ask that you first read [this contribution guide](https://github.com/firstcontributions/first-contributions)
-
-Don't forget to leave your ⭐, it is also a way to contribute to the project;)
-
 ## 📝 License
 
 This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
